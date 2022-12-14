@@ -1,0 +1,114 @@
+header{
+    min-height: 70px;
+    background-color: #4b40a8;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.menu li{
+    padding:20px;
+    min-width:100px;
+}
+.menu a:link{
+    color: #dddddd;
+    text-decoration: none;
+}
+.menu a:visited{
+    color: #dddddd;
+    text-decoration: none;
+}
+.menu a:active{
+    color: #b6b6b6;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title h1{
+    font-size: 3em;
+    border-bottom: 1px solid rgb(250, 104, 214);
+    padding-bottom: 1rem;
+
+}
+.home p{
+    text-align: justify;
+}
+footer{
+    background-color: #4b40a8;
+    font-size: .8em;
+}
+footer p{
+        line-height: 20px;
+}
+footer .container{
+    display: flex;
+}
+footer.menu a{
+    color: #b6b6b6;
+}
+
+.box{
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:5px;
+    border: 1px solid rgb(250, 104, 214);
+    color: solid rgb(250, 104, 214);
+    color: whitesmoke;
+    display: inline-flex;
+}
+
+.imgport img{
+    float: left;
+    padding: 30px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.imgport:hover{
+-webkit-transform: scale(1.5);
+transform: scale(1.5);
+}
+.imgport:hover #comentario{
+opacity:1;
+}
+
+.paginas{
+    display: flex;
+    margin: auto;
+    display: inline-block;
+
+}
+.paginas p{
+    padding-left: 25px;
+}
+.paginas h1{
+    padding-left: 25px;
+}
+.paginas h2{
+    padding-left: 25px;
+}
+
+
+.fotinha img{
+border-radius: 20%;
+}
+
+.englobas{
+    display: flex;
+    margin: auto;
+
+}
+
+.info img{
+
+    height: 400px;
+    width: 400px;
+}
